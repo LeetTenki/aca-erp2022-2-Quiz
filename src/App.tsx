@@ -2,7 +2,8 @@
 import logo from './aca.png';
 import './App.css';
 import React, {useState} from  'react';
-import Answers from './feedback';
+
+import ReactDOM from 'react-dom/client';
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
     {
       questionText: "1. TypeScript is a ?",
       answerOptions: [
-        {answerText: "A) strongly typed", isCorrect: false},
+        {answerText: "A) strongly typed", isCorrect: false},  
         {answerText: "B) object oriented", isCorrect: false},
         {answerText: "C) compiled language", isCorrect: false},
         {answerText: "D) All of the above", isCorrect: true},
@@ -639,6 +640,9 @@ function App() {
 
        (
       <>   
+        <div style={{textAlign: "center"}}>
+          <span >REACT QUIZ</span>
+        </div>
         <div className="question-section">
           <span>Question {curentQuestion + 1}</span>/{question.length}
         </div>

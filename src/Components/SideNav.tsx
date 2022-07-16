@@ -5,7 +5,6 @@ const Sidenav=()=>{
     return(
         <>
          <div>Sidenav</div>
-         <div>Sidenav</div>
         </>       
     );
 }
