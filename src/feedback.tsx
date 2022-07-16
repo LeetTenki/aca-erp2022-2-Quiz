@@ -1,6 +1,6 @@
 import React from "react";
 
-const Sidenav=()=>{
+const Answers=()=>{
 
     return(
         <>
@@ -9,4 +9,4 @@ const Sidenav=()=>{
         </>       
     );
 }
-export default Sidenav;
+export default Answers;
