@@ -1,8 +1,8 @@
 Simple quiz-app using React, Typescript. Live demo https://aca-erp2022-2-quiz-app.herokuapp.com/
-# how to use it
-download ziiped folder
-unzip it
-open project with visual studio code
+# how to use it,
+download ziiped folder,
+unzip it,
+open project with visual studio code.
 
 # Getting Started with Create React App
 
