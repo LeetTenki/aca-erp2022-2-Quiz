@@ -1,6 +1,7 @@
 //import React from 'react';
-import logo from './aca.png';
+import im from './images/dropdown.png';
 import './App.css';
+import './index.css';
 import React, {useState} from  'react';
 
 import ReactDOM from 'react-dom/client';
@@ -633,6 +634,7 @@ function App() {
 
   return (
     <div className="App">
+   
       {showScore ?(
         <div className="score-section"> You scored {score} out of  {question.length}</div>
        
@@ -661,6 +663,7 @@ function App() {
       </>)}
 
     </div>
+    
   );
 }
 

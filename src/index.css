@@ -5,7 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: lime;
+  background-image: url('./images/start.jpg');
+  background-size: cover;
+  /*margin: 0;
+  padding: 30px 20px 0px;
+  display: flex;
+  justify-content: center;*/
   color: blue;
 }
 
